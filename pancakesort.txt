@@ -1,6 +1,0 @@
-from random import randrange
-a = [];
-for i in range(50):
-	a[i] = randrange(50);
-
-print a;

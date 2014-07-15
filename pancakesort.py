@@ -11,7 +11,7 @@ def flip(a, start, stop):
 #Perform the pancake sort! Can only sort by flipping from one part of the stack to the a side over. 
 #The idea is to move the minimum element to the last element of the array and then effectively make the array 1 element smaller. 
 #Keep performing the algorithm until there is 1 element left and the array should be sorted
-#Not optimized right now. Requires >O(n^2) time. But was quick to write. You know what they say about premature optimization  :)
+#Not optimized. Requires >O(n^2) time. But was quick to write. You know what they say about premature optimization  :)
 
 def pancakeSort(arr):
 	for i in range(len(arr)):
